@@ -6,29 +6,39 @@ Video link - https://youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9r
 
 ## Theory
 <details> <summary>
-1. Tutorial1 - What is machine learning
+Tutorial1 - What is machine learning
    
 </summary>
 
    1. Humans have neurons in there brains
-   2. when you tell baby that this is cow then specific neurons light up and their edges become strong as shown in the image
+   2. when you tell baby that this is cow then specific neurons light up and their edges become strong as shown in the image, for car different set of neuron lights up.
     ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/321fd67b-1ae2-42a5-8524-9f049ad31661)
+
+    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/f8c73c6b-4fca-4951-b37e-b535835df001)
+    3. Deep learning uses neural network similar to this
+    4. Machine learning examples- scam email detection, alexa google assitant, google recomendations, driverless cars etc.
+
 </details>
+
+<details> <summary>
+Tutorial2 - linear regression single variable
+   
+</summary>
+![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/b56f1227-43a2-425f-b82e-93ad52390147)
+
+</details>
+
 
 ---
 
 ## Learning steps:
 <details> <summary>
-1. Pulling and running docker images
+Tutorial2 - linear regression single variable
    
 </summary>
+1. create linear_regression.ipynb
+2. download the csv file
 
-   1. We go to docker hub and explore images
-   2. Here we download ngnix image using :- docker pull nginx
-   3. Check the image using :- docker images
-   4. Run the image using :- (docker run nginx:latest)  here 'latest' is a tag - can be 1.0, 2.0 etc.
-   5. Check the container using the command - (docker ps) in other container
-   6. run in detached mode :- refer command 2.1
 </details>
 
 
