@@ -51,7 +51,12 @@ Tutorial4 - Gradient Descent and Cost function
 
    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/43448e39-268b-4721-b95a-2e9956a24c9a)
 
-4.
+4. Gradient descent algorithm finds the best fit line for given training data set in minimum steps.
+5. We start with certain values of m and b and find their cost which here is 1000. Now keep changing m and b till we reach the lower most point.
+6. We are starting from the star and heading towards red dot
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/ea2f8b35-c21d-4402-a751-a65e6650d77d)
+
+
 </details>
 
 
