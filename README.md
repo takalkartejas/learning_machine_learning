@@ -62,6 +62,7 @@ Tutorial4 - Gradient Descent and Cost function
 9. The next value of b and m can be calculted using following equations, point to remember is the step size keeps on decreasing with the slope as evident from the eqn. and the graph
     ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/7f33c594-29dd-4250-bd54-92e43f1e9df6)
     ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/1a7db5e8-7e27-4700-807b-03ccee77bb44)
+10. Follow the code for implementation
     
 
 </details>
