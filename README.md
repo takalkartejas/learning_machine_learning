@@ -35,9 +35,9 @@ Tutorial3 - linear regression multiple variable
    
 </summary>
 
-
 </details>
 
+<details> <summary>
 Tutorial4 - Gradient Descent and Cost function
    
 </summary>
