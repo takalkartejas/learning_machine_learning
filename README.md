@@ -90,6 +90,15 @@ Tutorial6 - Dummy variables & One Hot encoding
 6. We create three categories and assign them either one or zeros
    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/0b84aa2a-ee6c-4fc4-a935-4379b48a2d6e)
 </details>
+
+<details> <summary>
+Tutorial7 - Training and testing data
+   
+</summary>
+1. We need to split training and testing data so that we can verify our model on the data that our model havent seen before 
+2. 
+
+</details>
 ---
 
 ## Learning steps:
