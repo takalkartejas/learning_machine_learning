@@ -99,6 +99,28 @@ Tutorial7 - Training and testing data
 2. 
 
 </details>
+
+<details> <summary>
+Tutorial8 - Logistic Regression
+   
+</summary>
+1. The prediciton values are not continous like linear regression bit are categorical
+2. continous regression exaple - house prices, categorical eg- which party will a person vote for, or is the email spam or not
+3.  Simple yes or no - binary classification, multiple categories - multiclass classification
+4.  In an age vs boought insurace  or not problem we cant use linear regression as shown in figure
+
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/5152bbbb-f7c9-4946-bfa3-eeec58912bce)
+5.  For above linear regression method we can simply say that above 0.5 is 1 and below 0.5 is 0 so it will work, but if their is even one exceptional case the above mehod fails.
+6.  Sigmoid or logit funtion, can fit better
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/cb902c31-e407-4608-a0c7-ee1947b72de1)
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/f871fde8-15ef-4162-9cb7-9169fed05ed2)
+7. The sigmoid funtion is in range 0 to 1
+8. We replace the z by mx+b
+   [image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/48b55b54-f19d-4691-9ee5-4eff38231ad4)
+9. Refer code 
+
+</details>
+---
 ---
 
 ## Learning steps:
