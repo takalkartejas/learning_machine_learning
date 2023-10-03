@@ -69,11 +69,26 @@ Tutorial4 - Gradient Descent and Cost function
 
 <details> <summary>
 Tutorial5 - save model using joblib and pickle
+
+</summary>
+
+
+
+</details>
+
+<details> <summary>
+Tutorial6 - Dummy variables & One Hot encoding
    
 </summary>
-1. 
 
-
+1. Suppose you have town names as your input and the prices vary with them
+2. We need to encode them as numbers,but if we encde them as integers machine can make assumptions such as town a < town b or town a + town b = town c during training. 
+3. Nominal varibales are subcategory of categorical variables and nominal variables dont have any numeric order or mathematical relationship between them.
+4. The second type is called ordinal varibales which has some sort of numeric order.
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/fed4244e-0121-44a0-8c3f-cae794a02b33)
+5. Simple integer encoding wont work on the nominal variables so we use one hot encoding
+6. We create three categories and assign them either one or zeros
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/0b84aa2a-ee6c-4fc4-a935-4379b48a2d6e)
 </details>
 ---
 
