@@ -67,7 +67,14 @@ Tutorial4 - Gradient Descent and Cost function
 
 </details>
 
+<details> <summary>
+Tutorial5 - save model using joblib and pickle
+   
+</summary>
+1. 
 
+
+</details>
 ---
 
 ## Learning steps:
