@@ -42,7 +42,7 @@ Tutorial4 - Gradient Descent and Cost function
    
 </summary>
 
-1. In linear regresssion we minimize the mean squared error as shown in the followin figure
+1. In linear regresssion we minimize the mean squared error as shown in the following figure
    
    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/c29f0cb3-6308-40ba-86e7-85bed57c240c)
 
@@ -55,7 +55,14 @@ Tutorial4 - Gradient Descent and Cost function
 5. We start with certain values of m and b and find their cost which here is 1000. Now keep changing m and b till we reach the lower most point.
 6. We are starting from the star and heading towards red dot
    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/ea2f8b35-c21d-4402-a751-a65e6650d77d)
-
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/2e1caa40-42e5-4ab0-b9db-a9319afa069d)
+7. We take partial derivative of the mean square error wrt m and b  
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/02881d50-ae0f-48e8-b9da-4ab58dd6b940)
+8. Now we know the slope of the cost function, we can try to minimize the cost
+9. The next value of b and m can be calculted using following equations, point to remember is the step size keeps on decreasing with the slope as evident from the eqn. and the graph
+    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/7f33c594-29dd-4250-bd54-92e43f1e9df6)
+    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/1a7db5e8-7e27-4700-807b-03ccee77bb44)
+    
 
 </details>
 
@@ -81,7 +88,13 @@ Tutorial3 - linear regression multiple variable
 
 </details>
 
+<details> <summary>
+Tutorial4 - gradient decent
+   
+</summary>
+1. Follow the folder
 
+</details>
 ---
 
 ## Usefull commands:
