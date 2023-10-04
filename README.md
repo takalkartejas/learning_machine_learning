@@ -181,36 +181,6 @@ Tutorial19 -  Support Vector Machine (SVM)
 ---
 
 
-## Learning steps:
-<details> <summary>
-Tutorial2 - linear regression single variable
-   
-</summary>
-1. create linear_regression.ipynb
-2. download the csv file
-
-</details>
-
-<details> <summary>
-Tutorial3 - linear regression multiple variable
-   
-</summary>
-1. The linear equation for price will be 
-   price = m1*area + m2*bedrooms + m3*age + b 
-
-</details>
-
-<details> <summary>
-Tutorial4 - gradient decent
-   
-</summary>
-1. Follow the folder
-
-</details>
----
-
-## Usefull commands:
-
   
 
 
