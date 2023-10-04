@@ -178,7 +178,7 @@ Tutorial19 -  Support Vector Machine (SVM)
    * Accuracy might drop
 11. PCA is called dimensionality reduction techinque as it can help us reduce dimensions
 </details>
----
+
 
 
   
