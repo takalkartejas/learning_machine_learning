@@ -129,6 +129,16 @@ Tutorial8.2 - Logistic Regression(multiclass classification)
 2. Refer code 
 
 </details>
+
+<details> <summary>
+Tutorial9 - Decision Tree
+   
+</summary>
+1. Decision tree is used to classify complex data set, i.e. you need to draw multiple lines which indicates multiple classifications.
+
+ ![Decision Tree](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/a38a9591-e239-49c5-83d0-18da6b59a529)
+
+</details>
 ---
 ---
 
