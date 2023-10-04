@@ -154,27 +154,29 @@ Tutorial9 - Decision Tree
 </details>
 
 <details> <summary>
-Tutorial10 -  Support Vector Machine (SVM)
+Tutorial19 -  Support Vector Machine (SVM)
    
 </summary>
-1.Take a classification example of a iris flower, we can use petal and sepal width and height to determine the species of the flower.
-2. There are many possible ways to classify below data, we can draw multiple boundries which are all valid.
-   
-   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/0e106646-b480-4247-b1de-416c6a13c3d4)
-3. Now the best line is the line which is as far away from the data points as possible for clear distinction of data.
-4. The data points are called support vectors and the distance between them and line called margin
-   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/41f222a9-835f-43b1-ab79-724f440c2cd8)
-5. Support vector machine draws a hyper plane in n dimensional space such that it maximizes margin between classification groups.
- ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/7088f51c-0ad4-4ac9-b9cc-073068a1a822)
+1. Take an example of the below data, the trees nearby are not as necessary as other data. We need to find the parameters which significantly affects the price or output. We may have 1000s of columns or features in real life machine learning problems and we want to identify the features that are very important.    
 
-6. High gamma- consider margin between nearby points, Low gamm- also consider far away points
-![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/ca3ad36f-330d-4847-8995-d7aa5ab4881a)
-7. Left one is overfitting or high regularization and right one is under fitting or low regularisation. 
-   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/e2208e39-e7cd-4948-96f8-ee9f2682a42b)
-8. In the following case we can create a third dimension z as function of x and y and then classify
-   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/d148275a-dcda-46bc-a225-dca693c28a7b)
-     ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/8ab673f9-090e-46d4-a100-7841e5872d50)
-9. z here is called a kernel
+![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/d7cdcc2f-c13f-4437-913c-ef163266efb0)
+
+2. Lets take example of hand written digits classifications, in an 8x8 image, we have 64 pixels or features, we find that the pixels on edge dont play a role in determining the output. We can just remove those features.
+
+3. Advantages of PCA - 1. Faster training and inference, 2. Data visulization becomes easier
+4. Principal component analysis is a process of figuring out most important features or principal components that has the most impact on the target variables.
+5. Now lets take the example of the 8x8 images with numbers, we plot the corner pixel vs central pixel values which are from 0 to 16 and see how thy effect the classifications of numbers.
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/c725fb4c-49ce-4fe9-b305-ae2fae6608f3)
+6. We can reduce this data into 1d from 2d easily
+7. Now in this example of iris flower the the line of highest variance is slanted and not straight, we call the line or axis with maximum variance PC1 and perpendicular line PC2.
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/01511708-2f26-498d-a9db-f4e6e4a444af)
+8. We created 2 principal components in this case, but we can 100 prinicpal components if we have 100 features and arrange them in decending order of their impact on the target variables. 
+![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/6fcb3a8d-9149-4dc1-8e7f-4e9f9b5951b1)
+9. Now in case of digits we find the 6 most important principal components with higest variance. These PCs are new features. We can also extract important features by telling that give me the features which contains 95 % of the information.
+10. Things to remember before applying PCA 
+   * we need to scale the features
+   * Accuracy might drop
+11. PCA is called dimensionality reduction techinque as it can help us reduce dimensions
 </details>
 ---
 
