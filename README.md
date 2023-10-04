@@ -136,11 +136,28 @@ Tutorial9 - Decision Tree
 </summary>
 1. Decision tree is used to classify complex data set, i.e. you need to draw multiple lines which indicates multiple classifications.
 
- ![Decision Tree](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/a38a9591-e239-49c5-83d0-18da6b59a529)
+ ![Simple classification](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/a38a9591-e239-49c5-83d0-18da6b59a529)
+ ![Complex classification](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/85d6d80c-cf01-410d-b0e0-1f75a50e10f5)
+
+2. A human will try to classify following data by using  a decision tree
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/4dee660b-71ca-490e-9dd8-8b4446df8504)
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/7cab3173-6408-44a9-97a4-7674792ade56)
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/437f5cfb-1b3f-455f-a967-90b72e089731)
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/176995c3-d838-4fc0-8ae2-8608104b3cab)
+3. In real life it will be much more complicated and the order in which we make classfication will impact on the performance of our algorithm.
+4. To optimize this process we try to select the classification with the lowest entropy, for eg. between the below two decision the left one has a pure subset i.e. facebook which gives us lower entropy.
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/b18891e3-a3ca-4214-91f6-f1ee7b1419bd)
+5. If the the data falls 50/50 in each category then it is the highest entropy and if totally in one category then it is lowest entropy. We have an high infromation gain in left one and lower in right one
+6. Gini Impurity- When we split the sample there it is almost pure with few defects
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/a876cb3c-bdb6-474f-8e46-5595355f6a5b)
+   
+
+
 
 </details>
+
 ---
----
+
 
 ## Learning steps:
 <details> <summary>
