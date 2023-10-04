@@ -120,6 +120,15 @@ Tutorial8 - Logistic Regression
 9. Refer code 
 
 </details>
+
+<details> <summary>
+Tutorial8.2 - Logistic Regression(multiclass classification)
+   
+</summary>
+1. Lets take 8x8 images of numbers and classify them as numbers
+2. Refer code 
+
+</details>
 ---
 ---
 
