@@ -150,12 +150,32 @@ Tutorial9 - Decision Tree
 5. If the the data falls 50/50 in each category then it is the highest entropy and if totally in one category then it is lowest entropy. We have an high infromation gain in left one and lower in right one
 6. Gini Impurity- When we split the sample there it is almost pure with few defects
    ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/a876cb3c-bdb6-474f-8e46-5595355f6a5b)
-   
-
-
 
 </details>
 
+<details> <summary>
+Tutorial10 -  Support Vector Machine (SVM)
+   
+</summary>
+1.Take a classification example of a iris flower, we can use petal and sepal width and height to determine the species of the flower.
+2. There are many possible ways to classify below data, we can draw multiple boundries which are all valid.
+   
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/0e106646-b480-4247-b1de-416c6a13c3d4)
+3. Now the best line is the line which is as far away from the data points as possible for clear distinction of data.
+4. The data points are called support vectors and the distance between them and line called margin
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/41f222a9-835f-43b1-ab79-724f440c2cd8)
+5. Support vector machine draws a hyper plane in n dimensional space such that it maximizes margin between classification groups.
+ ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/7088f51c-0ad4-4ac9-b9cc-073068a1a822)
+
+6. High gamma- consider margin between nearby points, Low gamm- also consider far away points
+![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/ca3ad36f-330d-4847-8995-d7aa5ab4881a)
+7. Left one is overfitting or high regularization and right one is under fitting or low regularisation. 
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/e2208e39-e7cd-4948-96f8-ee9f2682a42b)
+8. In the following case we can create a third dimension z as function of x and y and then classify
+   ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/d148275a-dcda-46bc-a225-dca693c28a7b)
+     ![image](https://github.com/takalkartejas/learning_machine_learning/assets/67382565/8ab673f9-090e-46d4-a100-7841e5872d50)
+9. z here is called a kernel
+</details>
 ---
 
 
